@@ -31,7 +31,7 @@ public class SimpleDoor : MonoBehaviour {
             return;
         }
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Dog"))
         {
             Open();
         }
