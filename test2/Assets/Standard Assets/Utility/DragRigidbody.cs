@@ -12,14 +12,19 @@ namespace UnityStandardAssets.Utility
         const float k_AngularDrag = 5.0f;
         const float k_Distance = 0.2f;
         const bool k_AttachToCenterOfMass = false;
+		public int elebitCollected;
 
         private SpringJoint m_SpringJoint;
 
 
         private void Update()
         {
+			GameObject thePlayer = GameObject.Find ("First Person Controller");
+			PlayerController playerController = thePlayer.GetComponent<PlayerController>();
+
+			elebitCollected = playerController.UIint;
             // Make sure the user pressed the mouse down
-            if (!Input.GetMouseButtonDown(0))
+            if (!Input.GetMouseButtonDown(0) || elebitCollected < 3)
             {
                 return;
             }
