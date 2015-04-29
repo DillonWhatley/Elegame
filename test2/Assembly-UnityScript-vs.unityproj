@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Crosshair.js" />
      <Compile Include="Assets\FPSInputController.js" />
      <Compile Include="Assets\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
      <Compile Include="Assets\crosshair (old).js" />
+     <Compile Include="Assets\crosshair.js" />
      <Compile Include="Assets\cubo.js" />
      <Compile Include="Assets\lockcursor.js" />
      <Compile Include="Assets\omega_fighter_01\script\NewBehaviourScript.js" />
@@ -65,7 +65,7 @@
      <None Include="Assets\Stockcar\ReadMe.txt" />
      <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>D:/Unity/Elebits/Elegame/test2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Pigslug/Documents/School/Spring 15'/Comp 585/GAME/Elegametwo/Elegame/test2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
