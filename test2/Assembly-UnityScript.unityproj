@@ -46,8 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Crosshair.js" />
+     <Compile Include="Assets\FPSInputController.js" />
      <Compile Include="Assets\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
-     <Compile Include="Assets\crosshair.js" />
+     <Compile Include="Assets\crosshair (old).js" />
+     <Compile Include="Assets\cubo.js" />
      <Compile Include="Assets\lockcursor.js" />
      <Compile Include="Assets\omega_fighter_01\script\NewBehaviourScript.js" />
      <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />

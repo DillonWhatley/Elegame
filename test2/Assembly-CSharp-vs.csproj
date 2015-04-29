@@ -46,10 +46,27 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Crosshair1.cs" />
+     <Compile Include="Assets\DragRigidbody.cs" />
      <Compile Include="Assets\EnchantedAnvil\Scripts\AlienCollider.cs" />
      <Compile Include="Assets\EnchantedAnvil\Scripts\SimpleDoor.cs" />
+     <Compile Include="Assets\HydraMovement.cs" />
+     <Compile Include="Assets\HydraScript.cs" />
+     <Compile Include="Assets\Raycaster.cs" />
+     <Compile Include="Assets\SixenseHand.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseHandsController.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseInputTest.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseObjectController.cs" />
+     <Compile Include="Assets\SixenseInput\Scripts\SixenseInput.cs" />
+     <Compile Include="Assets\SixenseInput\Scripts\SixensePlugin.cs" />
+     <Compile Include="Assets\hydraMove.cs" />
      <Compile Include="Assets\omega_fighter_01\script\MouseLook.cs" />
+<<<<<<< HEAD
      <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
+=======
+     <Compile Include="Assets\scripts\PlayerController.cs" />
+     <Compile Include="Assets\yRotation.cs" />
+>>>>>>> 476f4faaf8f13197f3449b218bf4a4d9a83cfd08
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />
      <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
@@ -61,7 +78,7 @@
      <None Include="Assets\Stockcar\ReadMe.txt" />
      <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Pigslug/Documents/School/Spring 15'/Comp 585/GAME/Elegametwo/Elegame/test2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>D:/Unity/Elebits/Elegame/test2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -1,7 +1,15 @@
 ﻿#pragma strict
 
-var crosshairTexture : Texture2D; var position : Rect; static var OriginalOn = true;
+var crosshair : Texture;
 
-function Start() { position = Rect((Screen.width - crosshairTexture.width) / 2, (Screen.height - crosshairTexture.height) /2, crosshairTexture.width, crosshairTexture.height); }
+function Start () {
 
-function OnGUI() { if(OriginalOn == true) { GUI.DrawTexture(position, crosshairTexture); } }
+}
+
+function Update () {
+
+}
+
+function OnGUI () {
+	GUI.DrawTexture (new Rect(Screen.width/2 - 20, Screen.height/2 - 20, 40, 40), crosshair);
+}
